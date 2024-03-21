@@ -1,0 +1,64 @@
+  /* Create an accessible color palette using var()function */
+  /* https://www.w3schools.com/css/css3_variables.asp */
+  
+form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #702082; /* 考虑是否需要调整表单内其余文本颜色 */
+  background: #CFC096;
+  font-family: 'Jockey One', sans-serif;
+}
+
+.radio {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: #702082;
+  font-family: 'Jockey One', sans-serif;
+}
+
+#name {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #E6E6E6; /* 调亮背景色以提高对比度 */
+  color: #333; /* 保持文字颜色不变 */
+  font-family: 'Jockey One', sans-serif;
+}
+
+#message {
+  width: 100%;
+  padding: 10px;
+  resize: vertical;
+  font-family: 'Jockey One', sans-serif;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-family: 'Jockey One', sans-serif;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Jockey One', sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  font-family: 'Jockey One', sans-serif;
+}
